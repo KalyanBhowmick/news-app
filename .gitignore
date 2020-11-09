@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -13,6 +12,7 @@
 /build
 
 # misc
+.env
 .DS_Store
 .env.local
 .env.development.local
@@ -22,7 +22,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-=======
 # Logs
 logs
 *.log
@@ -127,4 +126,5 @@ dist
 
 # TernJS port file
 .tern-port
->>>>>>> f07715b7bdc3528149c8353b4c546681bc0a7b9f
+
+package-lock.json
