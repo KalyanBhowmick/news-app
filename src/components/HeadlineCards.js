@@ -7,7 +7,6 @@ const HeadlineCards = () => {
   const [country, setCountry] = useState("us");
 
   useEffect(() => {
-      console.log('rendered');
     async function fetchData() {
       const response = await axios.get(
         `https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${process.env.REACT_APP_API_KEY}`
