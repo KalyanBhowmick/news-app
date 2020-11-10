@@ -10,7 +10,7 @@ const HeadlineCards = () => {
       console.log('rendered');
     async function fetchData() {
       const response = await axios.get(
-        `http://newsapi.org/v2/top-headlines?country=${country}&apiKey=${process.env.REACT_APP_API_KEY}`
+        `https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${process.env.REACT_APP_API_KEY}`
       );
       setNews(response);
     }
